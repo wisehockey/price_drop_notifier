@@ -1,6 +1,6 @@
-# Amazon Price Drop Notifier
+# Ecommerce Price Drop Notifier
 
-This script tracks price drops for a product on Amazon and sends a WhatsApp alert via Twilio.
+This script tracks price drops for a product on Ecommerce App and sends a WhatsApp alert via Twilio.
 
 ## Features
 - Scrapes the price of a product at a set interval.
@@ -41,7 +41,7 @@ This script tracks price drops for a product on Amazon and sends a WhatsApp aler
 3. Modify Product URL
 
     ```bash
-    driver.get("https://www.amazon.in/your-product-link")
+    driver.get("target_url")
 
 4. Stop the script when you are done
 
